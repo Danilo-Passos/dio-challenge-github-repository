@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Align Content</title>
+
+    <style>
+        .container{
+            height: 400px;
+            max-width: 300px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+
+        .item{
+            background-color: orangered;
+            padding: 0 5px;
+            margin: 5px;
+            flex: 1;
+            text-align: center;
+            color: white;
+            border: 2px solid black;
+        }
+
+        .stretch{
+            align-content: stretch;
+        }
+
+        .center{
+            align-content: center;
+        }
+
+        .flex-start{
+            align-content: flex-start;
+        }
+
+        .flex-end{
+            align-content: flex-end;
+        }
+
+        .s-around{
+            align-content: space-around;
+        }
+
+        .s-between{
+            align-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <p>Stretch</p>
+    <div class="container stretch">
+        <div class="item">Item Item Item Item Item Item</div>
+        <div class="item">Item Item Item</div>
+        <div class="item">Item Item Item Item Item Item</div>
+        <div class="item">Item Item Item Item Item Item Item Item Item Item Item Item Item Item Item Item Item Item</div>
+        <div class="item">Item Item Item Item Item Item Item Item Item</div>
+        <div class="item">Item Item Item Item Item Item Item Item Item</div>
+        <div class="item">Item Item Item Item Item Item Item Item Item</div>
+    </div>
+
+    <p>Center</p>
+    <div class="container center">
+        <div class="item">Item Item Item Item Item Item</div>
+        <div class="item">Item Item Item</div>
+        <div class="item">Item Item Item Item Item Item</div>
+        <div class="item">Item Item Item Item Item Item Item Item Item Item Item Item Item Item Item</div>
+        <div class="item">Item Item Item Item Item Item Item Item Item</div>
+        <div class="item">Item Item Item Item Item Item Item Item Item</div>
+        <div class="item">Item Item Item Item Item Item Item Item Item</div>
+    </div>
+
+    <p>Flex Start</p>
+    <div class="container flex-start">
+        <div class="item">Item Item Item Item Item Item</div>
+        <div class="item">Item Item Item</div>
+        <div class="item">Item Item Item Item Item Item</div>
+        <div class="item">Item Item Item Item Item Item Item Item Item Item Item Item Item Item Item</div>
+        <div class="item">Item Item Item Item Item Item Item Item Item</div>
+        <div class="item">Item Item Item Item Item Item Item Item Item</div>
+        <div class="item">Item Item Item Item Item Item Item Item Item</div>
+    </div>
+
+    <p>Flex End</p>
+    <div class="container flex-end">
+        <div class="item">Item Item Item Item Item Item</div>
+        <div class="item">Item Item Item</div>
+        <div class="item">Item Item Item Item Item Item</div>
+        <div class="item">Item Item Item Item Item Item Item Item Item Item Item Item Item Item Item</div>
+        <div class="item">Item Item Item Item Item Item Item Item Item</div>
+        <div class="item">Item Item Item Item Item Item Item Item Item</div>
+        <div class="item">Item Item Item Item Item Item Item Item Item</div>
+    </div>
+
+    <p>Space Around</p>
+    <div class="container s-around">
+        <div class="item">Item Item Item Item Item Item</div>
+        <div class="item">Item Item Item</div>
+        <div class="item">Item Item Item Item Item Item</div>
+        <div class="item">Item Item Item Item Item Item Item Item Item Item Item Item Item Item Item</div>
+        <div class="item">Item Item Item Item Item Item Item Item Item</div>
+        <div class="item">Item Item Item Item Item Item Item Item Item</div>
+        <div class="item">Item Item Item Item Item Item Item Item Item</div>
+    </div>
+
+    <p>Space Between</p>
+    <div class="container s-between">
+        <div class="item">Item Item Item Item Item Item</div>
+        <div class="item">Item Item Item</div>
+        <div class="item">Item Item Item Item Item Item</div>
+        <div class="item">Item Item Item Item Item Item Item Item Item Item Item Item</div>
+        <div class="item">Item Item Item Item Item Item Item Item Item</div>
+        <div class="item">Item Item Item Item Item Item Item Item Item</div>
+        <div class="item">Item Item Item Item Item Item Item Item Item</div>
+    </div>
+</body>
+</html>
