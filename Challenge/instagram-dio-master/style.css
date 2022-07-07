@@ -7,13 +7,15 @@
     font-size: 14px;
 }
 
-body {
+body{
+    background-color: rgb(243, 243, 243);
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243, 243, 243);
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
@@ -127,8 +129,15 @@ body {
     background-image: url('./img/googleplay-button.png');
 }
 
-/* media queries */
+.footer input:not(body){
+    display: flex;
+    font-family: 'Calibri';
+    font-size: 45;
+    width: 100%;
+    margin: 50px;
+}
 
+/* media queries */
 
 @media (max-width: 1024px) {
     .instagram-wrapper {
