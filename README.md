@@ -6,7 +6,7 @@
 
 * [X] HTML
 * [X] CSS3
-* [ ] JS
+* [X] JS
 
 * Angular 📑.
 
