@@ -131,10 +131,15 @@ body{
 
 .footer input:not(body){
     display: flex;
-    font-family: 'Calibri';
-    font-size: 45;
     width: 100%;
     margin: 50px;
+}
+
+.footer p, a{
+    text-align: center;
+    font-size: 5;
+    font-family: sans-serif;
+    color: rgb(160, 160, 160);
 }
 
 /* media queries */
