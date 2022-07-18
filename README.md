@@ -1,4 +1,4 @@
-# Dio Challenge Git/GitHub 💻 (Santander BootCamp - BackEnd Java FullStack)
+# Dio Challenge Git/GitHub 💻 (Santander BootCamp - BackEnd Java FullStack 🎓)
 
 ##### _Repository created for challenge._
 

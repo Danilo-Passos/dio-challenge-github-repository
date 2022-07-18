@@ -1,4 +1,4 @@
-# Challenge DIO
+# Challenge DIO 🏆
 
 Utilização de Flexbox, na qual vamos fazer a interface de login do Instagram!
 
