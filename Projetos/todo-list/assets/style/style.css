@@ -1,0 +1,21 @@
+body{
+    background-color: antiquewhite;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-style: italic;
+}
+
+.btn {
+    width: 70px;
+    height: 35px;
+    border-radius: 50%;
+}
