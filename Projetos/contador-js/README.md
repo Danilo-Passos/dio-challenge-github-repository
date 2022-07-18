@@ -2,10 +2,10 @@
 
 Este Projeto consiste na criação de um contador utilizando JS, em que os números negativos fiquem em vermelho e os positivos se mantenham em preto.
 
-### Ferramentas.
+### Ferramentas 🔧
 
 * HTML.
 * CSS.
-* JS
+* JS,
 
 ### 🚀 Let's code! 🚀
