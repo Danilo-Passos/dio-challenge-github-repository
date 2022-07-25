@@ -37,9 +37,7 @@ class Livro {
         return numPaginas;
     }
 
-    public void setNumPaginas(Integer numPaginas) {
-        this.numPaginas = numPaginas;
-    }
+    public void setNumPaginas(Integer numPaginas) { this.numPaginas = numPaginas; }
 
     @Override
     public String toString() {
