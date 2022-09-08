@@ -18,7 +18,7 @@ public class ParImpar {
         do {
             System.out.print("Número: ");
             numero = scan.nextInt();
-            qtdImpar += (numero % 2 == 0) ? 1 : 0;
+            qtdImpar += (numero % 2 != 0) ? 1 : 0;
             qtdPar += (numero % 2 == 0) ? 1 : 0;
 
             count++;

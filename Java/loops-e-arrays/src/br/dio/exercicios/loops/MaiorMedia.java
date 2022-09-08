@@ -10,7 +10,7 @@ public class MaiorMedia {
         int numero;
         int count = 0;
         int maior = 0;
-        int soma = 0;
+        float soma = 0f;
 
         do {
             System.out.print("Número: ");

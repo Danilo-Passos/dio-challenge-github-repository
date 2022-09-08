@@ -1,4 +1,4 @@
-package br.dio.exercicios;
+package br.dio.exercicios.arrays;
 
 public class ArrayMultidimensional {
 }
