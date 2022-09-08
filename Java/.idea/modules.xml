@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicio-dois/exercicio-dois.iml" filepath="$PROJECT_DIR$/exercicio-dois/exercicio-dois.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicio-tres/exercicio-tres.iml" filepath="$PROJECT_DIR$/exercicio-tres/exercicio-tres.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicio-um/exercicio-um.iml" filepath="$PROJECT_DIR$/exercicio-um/exercicio-um.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loops-e-arrays/loops-e-arrays.iml" filepath="$PROJECT_DIR$/loops-e-arrays/loops-e-arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/primeiro-programa-intellij/primeiro-programa-intellij.iml" filepath="$PROJECT_DIR$/primeiro-programa-intellij/primeiro-programa-intellij.iml" />
+    </modules>
+  </component>
+</project>
